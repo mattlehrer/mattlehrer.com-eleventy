@@ -20,7 +20,7 @@ module.exports = {
           /**
            * config options https://github.com/kangax/html-minifier#readme
            */
-          collapseWhitespace: true,
+          collapseWhitespace: false,
           removeComments: true,
           removeEmptyAttributes: true,
           sortAttributes: true,
@@ -41,7 +41,7 @@ module.exports = {
   },
   optimize: {
     bundle: true,
-    minify: true,
+    // minify: true,
     target: 'es2020',
   },
 };

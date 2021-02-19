@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'mattlehrer.com',
+  title: 'Matt Lehrer',
   description: "Matt Lehrer's Personal Site",
   url: 'https://www.mattlehrer.com',
   author: 'Matt Lehrer',

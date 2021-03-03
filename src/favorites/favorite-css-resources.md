@@ -4,6 +4,7 @@ title: My favorite CSS blog posts
 description: The blog posts about CSS that I refer to over and over for different projects
 date: 2021-02-25
 created: 2021-02-25
+tags: posts
 ---
 
 Here are the blog posts about CSS that I refer to over and over for different projects:

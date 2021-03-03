@@ -23,6 +23,12 @@ module.exports = {
               color: 'inherit',
               fontWeight: 'inherit',
             },
+            'code::before': false,
+            'code::after': false,
+            code: {
+              backgroundColor: theme('colors.gray.200'),
+              padding: '.25em',
+            },
           },
         },
         light: {
@@ -87,6 +93,7 @@ module.exports = {
               },
               code: {
                 color: theme('colors.white'),
+                backgroundColor: theme('colors.gray.700'),
               },
               'a code': {
                 color: theme('colors.white'),

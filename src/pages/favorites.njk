@@ -10,7 +10,7 @@ eleventyNavigation:
 <h2>Recommendations in everything</h2>
 
 <ul>
-  {% for fave in collections.faveCategories %}
+  {% for fave in collections.faveCategories | reverse %}
   <li class="mb-6 sm:text-lg">
     <a href="{{ fave.url }}">{{ fave.data.title }}</a>
     - {{ fave.data.description }}

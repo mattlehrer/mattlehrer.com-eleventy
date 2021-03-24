@@ -4,10 +4,8 @@ title: Setting up TailwindCSS with Vite-based SvelteKit
 description: How you import the CSS is the only trick
 date: 2021-03-04
 created: 2021-03-04
-tags: investing
+tags: software
 ---
-
-# SvelteKit with TailwindCSS Setup
 
 On 2021-03-02, SvelteKit switched from Snowpack to Vite. I saw someone asking on the [Svelte Discord](https://svelte.dev/chat) if anyone had gotten TailwindCSS to work with the new `npm init svelte@next` template so [I set this up](https://github.com/mattlehrer/sveltekit-vite-tailwind). I only ran into one hiccup on the way.
 

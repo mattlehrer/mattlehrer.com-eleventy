@@ -1,4 +1,4 @@
-# mattlehrer.com source, built with eleventy, tailwind, alpinejs, turbolinks, and snowpack
+# mattlehrer.com source, built with eleventy, tailwind, and alpinejs
 
 ## TODO
 

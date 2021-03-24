@@ -40,9 +40,21 @@ Some cool stuff:
 - MadewithSvelte.com is interesting, has things like this [reactive map list](https://madewithsvelte.com/reactive-map-list).
 - [Sveltefire](https://github.com/codediodeio/sveltefire/) - Firebase integration
 - [Mdsvex](https://mdsvex.com/) - Svelte components in Markdown (like React in MD with MDX)
+- Interview with Amelia Wattenberger([Overcast link](https://overcast.fm/+DLNRLoIc)) on using Svelte for data viz on the [Data Stories podcast](https://datastori.es/163-svelte-js-for-web-based-dataviz-with-amelia-wattenberger/)(official site). It's a great intro to Svelte thinking in general but particularly for data viz.
 
 The future: [SvelteKit](https://youtu.be/luM5uobewhA) (Snowpack mentioned in this announcement video but now using Vite v2, which is similar)
 
 Things in SvelteKit are changing pretty frequently and in big ways so it's not how I would get started right now unless you love messing with settings and updating packages and googling new errors... New [docs](https://kit.svelte.dev/docs) are up as of yesterday.
+
+## An early, small community has pros and cons
+
+Because it’s fairly early there are some pain points:
+ESLint is kind of annoying to [get working](https://codechips.me/eslint-svelte-typescript/). Maybe that's normal for every toolchain, though.
+
+There are no docs and barely anything online about setting up AWS Amplify (but it’s [not that hard either](https://github.com/mattlehrer/svelte-snowpack-tailwind/tree/amplify)).
+
+And that’s pretty common: no docs or support from things you want to integrate with.
+
+The upside of it being early is that basically anything you learn can be turned into a blog post that’s useful for a lot of people… if you’re into that.
 
 Have you tried it? Let me know what you think on [twitter](https://www.twitter.com/mattlehrer).

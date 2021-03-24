@@ -7,7 +7,7 @@ created: 2021-03-24
 tags: software
 ---
 
-I wrote this up for my friend [Justin](https://www.twitter.com/jstn) who is mostly a Ruby developer but also Objective C, a little React and has probably dabbled in a bunch more. I've been telling him how much I love Svelte and this is how I recommend getting started right now.
+I wrote this up for my friend [Justin](https://www.twitter.com/jstn) who is, among other things, mostly a Ruby developer but also Objective C, a little React and has probably dabbled in a bunch more. I've been telling him how much I love Svelte and this is how I recommend getting started right now.
 
 ## What is Svelte?
 

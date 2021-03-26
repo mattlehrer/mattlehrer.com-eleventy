@@ -28,7 +28,7 @@ h3 {
 }
 
 p#nav a {
-  @apply inline-flex items-center pt-1 border-b-2 text-sm font-medium hover:bg-transparent hover:text-current;
+  @apply inline-flex items-center mt-3 border-b-2 text-sm font-medium hover:bg-transparent hover:text-current focus:border-transparent;
 }
 
 footer a {

@@ -44,9 +44,9 @@ Create a new CSS file with the Tailwind directives. I put it in ./src/style.css 
 
 This is the tricky part.
 
-First, I tried importing the CSS into ./src/app.html (`<link rel="stylesheet" ... `) as [Vite docs imply that the main html file is the entrypoint of the project](https://vitejs.dev/guide/#index-html-and-project-root). I'm not sure if there's a way to get that to work, but it didn't work for me.
+First, I tried importing the CSS into ./src/app.html (`<link rel="stylesheet" ... `) as the [Vite docs imply that the main html file is the entrypoint of the project](https://vitejs.dev/guide/#index-html-and-project-root). I'm not sure if there's a way to get that to work, but it didn't work for me.
 
-What does work, is importing the CSS in a `<script>` block on a Svelte component. The SvelteKit scaffold doesn't have a layout setup out of the box and you probably want to use Tailwind throughout the project.
+What does work is importing the CSS in a `<script>` block on a Svelte component. The SvelteKit scaffold doesn't have a layout setup out of the box and you probably want to use Tailwind throughout the project.
 
 Add a new [\$layout.svelte file](https://github.com/mattlehrer/sveltekit-vite-tailwind/blob/main/src/routes/%24layout.svelte) at ./src/routes/$layout.svelte
 

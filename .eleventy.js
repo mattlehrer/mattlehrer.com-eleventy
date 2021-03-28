@@ -1,3 +1,4 @@
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const { imageShortcode } = require('./utils/imageShortcode');
 const {
@@ -9,6 +10,11 @@ const fs = require('fs');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  eleventyConfig.addPlugin(syntaxHighlight, {
+    init: function ({ Prism }) {
+      Prism.languages.svelte = Prism.languages.extend('html');
+    },
+  });
   eleventyConfig.setQuietMode(true);
 
   eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcode);

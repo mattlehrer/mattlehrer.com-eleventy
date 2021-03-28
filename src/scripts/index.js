@@ -1,4 +1,5 @@
 import '../styles/index.css';
+import '../styles/prism.css';
 
 const env = document.querySelector('body').dataset.env;
 

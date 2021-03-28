@@ -25,17 +25,17 @@ Initialize Tailwind and PostCSS configs
 
 Setup [purge of unused CSS](https://github.com/mattlehrer/sveltekit-vite-tailwind/blob/44e00ba80f23552424589e798a9d8437ac93d0c1/tailwind.config.cjs#L2)
 
-```
+```js
 // tailwind.config.js
 module.exports = {
-	purge: ['src/app.html', 'src/**/*.svelte'],
+  purge: ['src/app.html', 'src/**/*.svelte'],
 ...
 }
 ```
 
 Create a new CSS file with the Tailwind directives. I put it in ./src/style.css but you can organize however.
 
-```
+```css
 // ./src/style.css
 @tailwind base;
 @tailwind components;
@@ -50,10 +50,10 @@ What does work is importing the CSS in a `<script>` block on a Svelte component.
 
 Add a new [\$layout.svelte file](https://github.com/mattlehrer/sveltekit-vite-tailwind/blob/main/src/routes/%24layout.svelte) at ./src/routes/$layout.svelte
 
-```
+```svelte
 // ./src/routes/$layout.svelte
 <script>
-	import '../style.css';
+  import '../style.css';
 </script>
 
 <slot />

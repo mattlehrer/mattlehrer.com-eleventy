@@ -9,7 +9,7 @@ tags: investing
 
 This is from an email I sent to my brother in August 2019. I've forwarded it to a couple people since and thought it's worth sharing more broadly. If there are any parts you find interesting or that you disagree with, let me know.
 
-<br />
+---
 
 I would say there are basically two smart ways to invest and lots of dumb ways to do asset allocation. Your goals should be to minimize fees, get broad diversification and just keep money in the market as long as you can. Thinking about different pools of money in different ways is good. Some is for retirement in something like 20 or 40 years. Some is to buy a house soon. You should take much less risk with money you need to use for a specific purpose soon. The least risk pool is for an "emergency fund" in the first link above that would just be in cash. Vanguard has a good yield on cash right now compared to other ways to hold cash.
 

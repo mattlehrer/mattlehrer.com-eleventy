@@ -36,7 +36,7 @@ module.exports = {
 Create a new CSS file with the Tailwind directives. I put it in ./src/style.css but you can organize however.
 
 ```css
-// ./src/style.css
+/* ./src/style.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -51,7 +51,7 @@ What does work is importing the CSS in a `<script>` block on a Svelte component.
 Add a new [\$layout.svelte file](https://github.com/mattlehrer/sveltekit-vite-tailwind/blob/main/src/routes/%24layout.svelte) at ./src/routes/$layout.svelte
 
 ```svelte
-// ./src/routes/$layout.svelte
+<!-- ./src/routes/$layout.svelte -->
 <script>
   import '../style.css';
 </script>

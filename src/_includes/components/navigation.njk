@@ -12,7 +12,7 @@
           640px) 128px, 80px" %}
         </a>
       </div>
-      <div class="self-start">
+      <div class="self-start w-full">
         <div class="flex flex-row items-center justify-between">
           <h1
             id="nav-name"
@@ -58,6 +58,7 @@
             </button>
           </div>
         </div>
+        {% if page.url === '/' %}
         <p class="pr-10 mt-1 mr-2 tracking-tight sm:pr-12 sm:mr-0">
           Dad. Husband. Beta and taste tester. I'm
           <a href="http://www.quicksilvercre.com"
@@ -65,6 +66,7 @@
           >
           avoid spending as much time in Excel as I have.
         </p>
+        {% endif %}
         <p>
           Say hi on
           <a

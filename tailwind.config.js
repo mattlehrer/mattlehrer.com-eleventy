@@ -1,6 +1,6 @@
 module.exports = {
   purge: ['./src/**/*.html', './src/**/*.md', './src/**/*.njk'],
-  darkMode: 'media',
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -115,15 +115,7 @@ module.exports = {
       }),
     },
   },
-  variants: {
-    extend: {
-      borderWidth: ['hover'],
-      borderRadius: ['hover'],
-      borderStyle: ['hover'],
-      fontWeight: ['dark'],
-      typography: ['dark'],
-    },
-  },
+  variants: {},
   plugins: [
     require('@tailwindcss/typography'),
     require('tailwindcss-debug-screens'),

@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		{% include "../components/head.njk" %}
-		<title>{{ title }}</title>
-		<link rel="stylesheet" type="text/css" href="/assets/index.bundle.css" />
-		<script type="module" src="/assets/index.bundle.js" defer></script>
-	</head>
-	<body class="grid max-w-2xl min-h-screen grid-cols-1 px-6 grid-rows-layout sm:px-12 sm:mx-auto md:px-0 dark:bg-gray-800 dark:text-gray-50 {{ 'debug-screens' if env.dev }}">
-			{% include "../components/navigation.njk" %}
-			<main class="">
-				{{ content | safe }}
-			</main>
-			{% include "../components/footer.njk" %}
-		</div>
-	</body>
+  <head>
+    {% include "../components/head.njk" %}
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="/assets/index.bundle.css" />
+    <script type="module" src="/assets/index.bundle.js" defer></script>
+    <script>
+      // run before dom parsing
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+      }
+
+      function darkModeSetup() {
+        return {
+          darkMode: false,
+          matchMedia() {
+            if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+              // dark class already on html element, just setup toggle switch
+              this.darkMode = true;
+            }
+          },
+          toggleDark() {
+            this.darkMode = !this.darkMode;
+            document.documentElement.classList.toggle('dark');
+          },
+        };
+      }
+    </script>
+  </head>
+  <body
+    class="grid max-w-2xl min-h-screen grid-cols-1 px-6 grid-rows-layout sm:px-12 sm:mx-auto md:px-0 dark:bg-gray-800 dark:text-gray-50 transition  ease-in-out duration-500 {{ 'debug-screens' if env.dev }}"
+  >
+    <div class="absolute top-0 right-0 hidden p-6 sm:block">
+      {% include "../components/dark_mode_toggle.njk" %}
+    </div>
+    {% include "../components/navigation.njk" %}
+    <main class="">
+      {{ content | safe }}
+    </main>
+    {% include "../components/footer.njk" %}
+  </body>
 </html>

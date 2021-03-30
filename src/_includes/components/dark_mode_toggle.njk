@@ -1,0 +1,10 @@
+<div
+  id="darkmodetoggle"
+  class="h-8"
+  x-data="darkModeSetup()"
+  x-init="matchMedia()"
+>
+  <input type="checkbox" x-bind:checked="darkMode" />
+  <label id="darkicon" title="Toggle dark mode" for="toggle"  x-on:click="toggleDark" x-bind:data-dark="darkMode
+  ? '🌒' : '🌞'" />
+</div>

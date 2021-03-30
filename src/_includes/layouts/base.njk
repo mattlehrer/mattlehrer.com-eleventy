@@ -13,13 +13,7 @@
 
       function darkModeSetup() {
         return {
-          darkMode: false,
-          matchMedia() {
-            if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-              // dark class already on html element, just setup toggle switch
-              this.darkMode = true;
-            }
-          },
+          darkMode: window.matchMedia('(prefers-color-scheme: dark)').matches,
           toggleDark() {
             this.darkMode = !this.darkMode;
             document.documentElement.classList.toggle('dark');

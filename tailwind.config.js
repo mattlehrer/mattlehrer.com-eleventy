@@ -32,7 +32,7 @@ module.exports = {
               },
               blockquote: {
                 fontWeight: '300',
-                // fontStyle: 'italic',
+                fontStyle: 'italic',
                 color: theme('colors.gray.700'),
                 borderLeftColor: theme('colors.gray.300'),
                 // hack - not sure why single quote is showing up on second blockquotes
@@ -80,7 +80,7 @@ module.exports = {
               },
               blockquote: {
                 fontWeight: '300',
-                // fontStyle: 'italic',
+                fontStyle: 'italic',
                 color: theme('colors.gray.100'),
                 borderLeftColor: theme('colors.gray.600'),
                 // hack - not sure why single quote is showing up on second blockquotes

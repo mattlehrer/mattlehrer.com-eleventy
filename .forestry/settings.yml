@@ -9,16 +9,23 @@ sections:
   label: Favorites
   create: all
   match: "**/*"
+  exclude: "*.json"
 - type: directory
   path: src/books
   label: Books
   create: all
   match: "**/*"
+  exclude: "*.json"
+  templates:
+  - book
 - type: directory
   path: src/blog
   label: Blog
   create: all
   match: "**/*"
+  exclude: "*.json"
+  templates:
+  - blog-post
 upload_dir: src/books/covers
 public_path: "/images"
 front_matter_path: ''

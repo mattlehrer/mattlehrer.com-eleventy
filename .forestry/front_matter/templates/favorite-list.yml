@@ -1,10 +1,13 @@
 ---
 label: Favorite List
 hide_body: false
+display_field: title
 fields:
 - type: text
   name: layout
   label: layout
+  default: layouts/post.njk
+  hidden: true
 - type: text
   name: title
   label: title

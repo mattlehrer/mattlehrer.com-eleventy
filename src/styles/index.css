@@ -31,6 +31,10 @@ p#nav a {
   @apply inline-flex items-center mt-3 border-b-2 text-sm font-medium hover:bg-transparent hover:text-current focus:border-transparent;
 }
 
+[x-cloak] {
+  display: none !important;
+}
+
 footer a {
   @apply text-gray-400 hover:text-gray-500 dark:hover:text-gray-200;
 }

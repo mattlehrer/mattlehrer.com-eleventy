@@ -82,9 +82,5 @@
     "tailwindcss": "^2.1.4",
     "tailwindcss-debug-screens": "^2.0.0",
     "workbox-cli": "^6.1.5"
-  },
-  "dependencies": {
-    "alpinejs": "^2.8.2",
-    "turbolinks": "^5.2.0"
   }
 }

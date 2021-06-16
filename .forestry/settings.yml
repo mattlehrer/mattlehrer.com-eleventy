@@ -10,6 +10,10 @@ sections:
   create: all
   match: "**/*"
   exclude: "*.json"
+  templates:
+  - podcast
+  - essay
+  - favorite-list
 - type: directory
   path: src/books
   label: Books

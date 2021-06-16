@@ -1,0 +1,25 @@
+---
+label: Book
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+- type: number
+  name: ISBN
+  label: ISBN
+- type: text
+  name: buy
+  label: buy
+- type: file
+  name: cover
+  label: cover
+- type: datetime
+  name: date
+  label: date

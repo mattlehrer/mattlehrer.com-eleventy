@@ -6,6 +6,7 @@
 - [x] Blog post list formatting
 - [x] Head and meta [setup](https://github.com/scottishstoater/jamstack-web-starter/blob/master/src/_includes/head.njk)
 - [ ] [Tag pages](https://github.com/11ty/eleventy-base-blog/blob/master/tags.njk)
+- [ ] Social share images with [tannerdolby's plugin](https://github.com/tannerdolby/eleventy-plugin-social-img) or a different one?
 
 ## Inspiration
 

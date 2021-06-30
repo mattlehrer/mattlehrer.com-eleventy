@@ -5,12 +5,12 @@ title: The Mom Test
 author: Rob Fitzpatrick
 ISBN: 9781492180746
 buy: https://bookshop.org/books/the-mom-test-how-to-talk-to-customers-learn-if-your-business-is-a-good-idea-when-everyone-is-lying-to-you/9781492180746
-cover: "/images/9781492180746.png"
-
+cover: 9781492180746.png
 ---
+
 Essential reading for anyone thinking about starting a business. The idea is simple, but important: It's too easy for someone to tell you that they like your idea and would buy. So don't talk about your idea, at least not at first.
 
-Start by finding out what their problems are and what they're doing to solve them. Are they paying for something? Have they tried to find a solution? If not, it's not that painful. 
+Start by finding out what their problems are and what they're doing to solve them. Are they paying for something? Have they tried to find a solution? If not, it's not that painful.
 
 The book shows you how to have these conversations in a way where even your mom would tell you the truth.
 

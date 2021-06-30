@@ -24,3 +24,5 @@ fields:
 - type: text
   name: tags
   label: tags
+pages:
+- src/blog/moving-to-stair-step-strategy-for-quicksilver.md

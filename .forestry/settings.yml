@@ -17,7 +17,7 @@ sections:
 - type: directory
   path: src/books
   label: Books
-  create: all
+  create: documents
   match: "**/*"
   exclude: "*.json"
   templates:

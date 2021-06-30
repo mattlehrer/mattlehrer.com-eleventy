@@ -30,8 +30,8 @@ sections:
   exclude: "*.json"
   templates:
   - blog-post
-upload_dir: src/images/covers
-public_path: "/images"
+upload_dir: src/books/covers
+public_path: ''
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"

@@ -28,4 +28,5 @@ fields:
   label: date
   default: now
 pages:
+- src/books/christianity-the-first-three-thousand-years.md
 - src/books/the-mom-test.md
